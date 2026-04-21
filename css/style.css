@@ -94,3 +94,32 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(rgba(0,31,63,0.8), rgba(0,31,63,0.8)), 
+              url('../assets/hero-bg.jpg') center/cover no-repeat;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #b9974f;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar a:hover {
+  border-bottom: 2px solid #CFAE70;
+}
+.badge {
+  display: inline-block;
+  background: #CFAE70;
+  color: #001F3F;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
