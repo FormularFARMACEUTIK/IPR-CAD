@@ -156,3 +156,30 @@ footer {
 .download-list a {
   font-size: 1rem;
 }
+.btn-primary, .btn-secondary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.btn-primary {
+  background: #CFAE70;
+  color: #001F3F;
+}
+.btn-primary:hover {
+  background: #b9974f;
+}
+.btn-secondary {
+  border: 2px solid #CFAE70;
+  color: #CFAE70;
+}
+.btn-secondary:hover {
+  background: #CFAE70;
+  color: #001F3F;
+}
+.downloads {
+  background: #f9f9f9;
+  padding: 3rem 2rem;
+  text-align: center;
+}
