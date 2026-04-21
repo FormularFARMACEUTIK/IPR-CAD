@@ -1,0 +1,96 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+
+h1, h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #001F3F; /* Sorbonne Navy */
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.btn-gold {
+  background: #CFAE70; /* Scholarly Gold */
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #001F3F;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #001F3F, #003366);
+  color: #fff;
+}
+
+.btn-primary {
+  background: #CFAE70;
+  color: #001F3F;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+.btn-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #001F3F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #CFAE70;
+}
+
+footer {
+  background: #001F3F;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
